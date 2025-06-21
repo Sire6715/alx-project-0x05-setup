@@ -1,88 +1,40 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
----
+## Getting Started
 
-## ✅ Best Practices Implemented
+First, run the development server:
 
-### 🔹 Component Organization
-- Logical separation of layout and functional components  
-- Reusable components (`ImageCard`)  
-- Proper component typing with TypeScript
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### 🔹 State Management
-- Proper use of React hooks (`useState`, `useEffect`)  
-- Custom hook for API calls (`useFetchData`)  
-- Type-safe state definitions
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 🔹 API Handling
-- Server-side API route for secure API key usage  
-- Proper error handling  
-- Loading states
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-### 🔹 Security
-- API keys stored in environment variables  
-- Server-side API calls to protect keys  
-- Input sanitization (with room for improvements)
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-### 🔹 UI/UX
-- Responsive design with Tailwind CSS  
-- Loading indicators  
-- Image gallery with preview functionality  
-- Clean, intuitive interface
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-### 🔹 Type Safety
-- TypeScript interfaces for all components and props  
-- Type-safe API responses  
-- Generic typing in custom hooks
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 🌟 Key Features
+To learn more about Next.js, take a look at the following resources:
 
-### 🖼️ Image Generation
-- Text prompt input  
-- API integration with GPT-4 Image Generation  
-- Loading states during generation
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-### 🗃️ Image Gallery
-- History of generated images  
-- Thumbnail previews  
-- Click to view full image
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 📱 Responsive UI
-- Works on mobile and desktop  
-- Clean, modern design  
-- Intuitive navigation
+## Deploy on Vercel
 
-### 🔁 Custom Hooks
-- Reusable data fetching logic  
-- State management abstraction  
-- Error handling
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## 🧪 Development Notes
-
-The project evolves through multiple versions (`0x07` to `0x13`), each adding new functionality:
-
-- **0x07** – Basic setup and layout  
-- **0x08** – State management  
-- **0x09** – Environment configuration  
-- **0x10** – API integration  
-- **0x11** – Image tracking  
-- **0x12–0x13** – Custom hooks
-
-### ✅ Final version demonstrates:
-- Clean separation of concerns  
-- Reusable components and hooks  
-- Proper TypeScript implementation  
-- Good React patterns
-
----
-
-## 🚀 Future Improvements (For Production Use)
-
-- User authentication  
-- Persistent storage of generated images  
-- More advanced error handling  
-- Image editing capabilities  
-- Social sharing features
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
