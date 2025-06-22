@@ -15,7 +15,7 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
     const { prompt }: RequestProps = request.body;
 
     const res = await fetch(gptUrl, {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify({
         text: prompt,
         width: WIDTH,
