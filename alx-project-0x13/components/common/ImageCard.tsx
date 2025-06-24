@@ -15,6 +15,8 @@ const ImageCard: React.FC<GeneratedImageProps> = ({
         src={imageUrl}
         alt={prompt}
         className={`w-full max-w-md rounded-lg shadow-lg`}
+        width={100}
+        height={100}
       />
       <h2 className={`${width ? "text-sm" : "text-xl"} font-semibold mt-2`}>
         Your Prompt:

@@ -62,7 +62,7 @@ const Home: React.FC = () => {
                     imageUrl={imageUrl}
                     prompt={prompt}
                     key={index}
-                    width="w-full"
+                    width="-full"
                     height="h-40"
                   />
                 )
